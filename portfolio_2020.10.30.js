@@ -116,9 +116,11 @@ function removeClass(element, name) {
 }
 
 document.getElementById('all').addEventListener('click', filterSelection.bind(null, 'all'));
-document.getElementById('uiux').addEventListener('click', filterSelection.bind(null, 'uiux'));
-document.getElementById('java').addEventListener('click', filterSelection.bind(null, 'java'));
-document.getElementById('db').addEventListener('click', filterSelection.bind(null, 'db'));
+document.getElementById('android').addEventListener('click', filterSelection.bind(null, 'android'));
+document.getElementById('python').addEventListener('click', filterSelection.bind(null, 'python'));
+document.getElementById('mfc').addEventListener('click', filterSelection.bind(null, 'mfc'));
+document.getElementById('react').addEventListener('click', filterSelection.bind(null, 'react'));
+document.getElementById('arduino').addEventListener('click', filterSelection.bind(null, 'arduino'));
 
 function viewPortfolio(event) {
   var polyNode = event.target;
