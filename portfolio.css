@@ -395,12 +395,17 @@ section {
 	padding: 10px 0;
 }
 
-
 .skills-area > .container > .item > .content {
 	font-size: 16px;
 	font-family: 'Noto Sans KR', sans-serif;
 	letter-spacing: 1.5px;
 	padding: 10px 0;
+}
+
+.skills-area > .container > .item > .image_etc {
+	height: 48px;
+	width: 48px;
+	color: #aaa;
 }
 
 /* PORTFOLIO AREA */
